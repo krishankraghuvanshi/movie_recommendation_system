@@ -1,0 +1,13 @@
+# Virtual Environment (ignore the bins and libraries, keep the root where user code is)
+.venv/bin/
+.venv/lib/
+.venv/include/
+.venv/share/
+.venv/pyvenv.cfg
+__pycache__/
+*.pyc
+.DS_Store
+
+# Secrets
+.env
+.venv/.env
